@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button';
 import FileUpload from './components/FileUpload';
+import ButtonGrid from './components/ButtonGrid';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <ButtonGrid />
+        <h1>now da stuff</h1>
         <Button name="/Sweden.mp3" />
         <Button name="/gangnam.mp3" />
         <h1>okay now the new stuff</h1>
