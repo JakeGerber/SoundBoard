@@ -5,6 +5,8 @@ from pydub import AudioSegment
 
 #Open mp3 file
 song = AudioSegment.from_file("Sweden.mp3", format="mp3") 
+
+print(song.duration_seconds)
   
 #Start and End Times
 start_min = 1
